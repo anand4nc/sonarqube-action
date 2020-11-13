@@ -13,11 +13,11 @@ inputs:
     required: true
   projectKey:
     description: "The project's unique key. Allowed characters are: letters, numbers, -, _, . and :, with at least one non-digit."
-    required: false
+    required: true
     default: ""
   projectName:
     description: "Name of the project that will be displayed on the web interface."
-    required: false
+    required: true
     default: ""
   projectVersion:
     description: "The project version."
@@ -32,4 +32,4 @@ inputs:
     required: true
   password:
     description: "Password that goes with the sonar.login username. This should be left blank if an authentication token is being used."
-    required: false
+    required: true
